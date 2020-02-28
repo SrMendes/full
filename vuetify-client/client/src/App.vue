@@ -1,21 +1,7 @@
 <template>
-  <v-app>
-    <div>
-    
-    <v-alert
-      outlined
-      type="success"
-      text
-    >
-      Vuetify Rodando com Sucesso!
-       
-  {{info.id}}
-    </v-alert>
-    
-  </div>
-  <h1>CHORAAAAAAAAA</h1>
-        
-  </v-app>
+<v-app>
+  <router-view></router-view>
+</v-app>
 </template>
 
 <script>
